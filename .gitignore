@@ -1,0 +1,66 @@
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+secrets.json
+
+# Python environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python package/build artifacts
+dist/
+build/
+*.egg-info/
+
+# Qt Creator / CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+cmake-build-*/
+.qtcreator/
+*.user
+*.user.*
+
+# Compiled binaries and libraries
+*.exe
+*.dll
+*.so
+*.dylib
+*.obj
+*.o
+*.a
+*.lib
+*.pdb
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local databases and exports
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
+
+# Node.js, if used by any frontend component
+node_modules/
